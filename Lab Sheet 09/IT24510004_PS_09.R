@@ -2,6 +2,7 @@ setwd("C:\\Users\\ASUS\\Desktop\\Ps_Lab09")
 getwd()
 
 #Question1
+
 ##Since the true variance is unknown and sample size is less than 30, #we can apply one sample t-test.
 #Hypothesis: H0: $\mu$ = 3 Vs H1: $\mu$ != 3
 #Consider 5% level of significance
@@ -54,5 +55,6 @@ test_result <- t.test(baking_time, mu = 46, alternative = "less")
 
 # To display the full result
 print(test_result)
+
 
 
